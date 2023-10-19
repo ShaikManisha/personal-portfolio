@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "Frontend Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -73,11 +73,15 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I have 2.5 years of front-end development experience,
+                    focusing on translating wireframes and design mock-ups into
+                    accessible interfaces. My skills include ES6 JavaScript,
+                    React.js with TypeScript, Tailwind CSS for styling, and
+                    Redux for state management. I'm proficient in debugging and
+                    analyzing the DOM, integrating RESTful APIs, and connecting
+                    Node.js, Express.js, and MongoDB with React.js. I'm
+                    experienced in Git version control and package management
+                    with NPM and Yarn.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
